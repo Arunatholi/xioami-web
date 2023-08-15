@@ -1,0 +1,157 @@
+
+.logo__mi{
+    width: 40px;
+    height: 40px;
+}
+.nav-link{
+    color: black;
+}
+.nav-bg{
+    color: aliceblue;
+}
+.rounded{
+    padding-top: 10px;
+}
+.note{
+    text-decoration: none;
+    color: aliceblue;
+}
+.note2{
+    position: absolute;top: 40%;left: 10%;
+
+}
+ 
+
+
+.note3{
+    max-width: 100%;
+}
+.mi-price site-banner__price{
+    color: aliceblue;
+}
+.mi-btn__text{
+    color: aliceblue;
+    font-size: 25px;
+}
+.care{
+    text-align: center;
+    font-size: larger;
+
+}
+.service{
+    font-size: larger;
+}
+.sup{
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .note3{
+      width: 100%;
+      box-sizing: content-box;
+      margin: 0%;
+      padding: 0%;
+    }
+    .note2{
+        font-size: x-small;
+    }
+    
+  }
+  @media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    .note3{
+      width: 100%;
+      box-sizing:content-box;
+     
+    }
+    .note2>h2{
+        font-size: x-small;
+    }
+    .footer-area{
+        flex-wrap: wrap;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    /* For mobile phones: */
+    .note3{
+      width: 100%;
+      box-sizing:content-box;
+    }
+    .note2{
+        font-size: x-small;
+    
+        
+    }
+    
+    
+  }
+  @media only screen and (max-width: 200px) {
+    /* For mobile phones: */
+    .note3{
+      width: 100%;
+      box-sizing:border-box;
+      
+      
+    }
+    .note2{
+        font-size: x-small;
+    }
+   .protect{
+    flex-wrap: wrap;
+    width: 100%;
+   }
+    
+}  
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    .note3{
+      width: 100%;
+      box-sizing:content-box;
+      margin: 0%;
+      padding: 0%;
+    }
+    .note2{
+        font-size: x-small;
+    }
+    
+}
+@media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    .note3{
+      width: 100%;
+      box-sizing:content-box;
+      margin: 0%;
+      padding: 0%;
+    }
+    .note2{
+        font-size: x-small;
+    }
+    
+}
+.footer-col{
+    list-style: none;
+}
+
+
+
+    
+
+    
+
+    
+
+
