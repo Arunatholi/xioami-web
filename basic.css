@@ -127,7 +127,17 @@ body{
     .note2{
         font-size: x-small;
     }
-    
+     .note3{
+      width: 100%;
+      box-sizing:content-box;
+     
+    }
+    .note2>h2{
+        font-size: x-small;
+    }
+    .footer-area{
+        flex-wrap: wrap;
+    }
 }
 @media only screen and (max-width: 1200px) {
     /* For mobile phones: */
@@ -145,7 +155,23 @@ body{
 .footer-col{
     list-style: none;
 }
-
+@media only screen and (max-width:450){
+    .footer-area{
+        flex-wrap: wrap;
+    }
+    .note3{
+        width: 100%;
+        box-sizing:content-box;
+       
+      }
+      .note2>h2{
+          font-size: x-small;
+      }
+      .footer-area{
+          flex-wrap: wrap;
+      }
+    
+}
 
 
     
